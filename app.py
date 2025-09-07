@@ -89,9 +89,7 @@ def user(username):
     return f'Hello there, {username}'
 
 
-@app.route('/number')
-def number():
-    return redirect(url_for('index'))    
+    
 
 if __name__=='__main__':
     with app.app_context():
