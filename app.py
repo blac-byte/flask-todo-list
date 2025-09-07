@@ -87,7 +87,11 @@ def update(id):
 @app.route('/user/<username>')
 def user(username):
     return f'Hello there, {username}'
-    
+
+
+@app.route('/number')
+def number():
+    return 'Lul'    
 
 if __name__=='__main__':
     with app.app_context():
