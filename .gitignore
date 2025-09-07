@@ -4,3 +4,4 @@ instance/
 .env
 site.db
 venv/
+README.md
