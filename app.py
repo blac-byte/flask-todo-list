@@ -89,7 +89,6 @@ def user(username):
     return f'Hello there, {username}'
 
 
-    
 
 if __name__=='__main__':
     with app.app_context():
